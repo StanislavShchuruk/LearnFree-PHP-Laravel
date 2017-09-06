@@ -1,6 +1,6 @@
 # LearnFree-PHP-Laravel
-My PHP Laravel Project
+My PHP Laravel Projec.
 
-About: Website with free courses
+About: Website with free courses.
 
 Stetus: in progress...
