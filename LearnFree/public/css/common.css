@@ -1,0 +1,164 @@
+
+body{
+    font-family: cursive;
+    font-size: 18px;
+}
+
+h3{
+    font-weight: 700;
+}
+
+header{
+    
+}
+
+input{
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.content{
+    margin-top: 40px;
+}
+
+.main-header{
+    height: 160px;
+}
+
+.section{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #009933;
+}
+
+.section-header{
+    border-bottom: 2px dashed #4da6ff;
+    padding-bottom: 10px;
+    vertical-align: bottom;
+}
+
+.section-header > .btn{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.menu {
+    top: 100px;
+    height: 60px;
+    font-size: 18px;
+    padding-left: 25%;
+    background: #009933;
+    min-width: 1050px;
+}
+
+.block{
+    background: white;
+}
+
+.container-profile{
+    font-size: 13px;
+    background: white;
+    width: 650px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-radius: 15px;
+    border: 2px solid #4da6ff;
+}
+
+.page-header{
+    border-bottom: 1px solid #4da6ff;
+    color: #4da6ff;
+}
+
+.container-profile > .form-group > a{
+    margin-top: 7px;
+}
+
+.date-picker {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.date_picker_el {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.navbar-nav>li>a {
+    padding: 18px 25px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    background: #009933;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover{
+    color: white;
+    background: #00802b;
+}
+
+.title{
+    display: inline-block;
+    margin-top: 0;
+    color: #005580;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+    
+}
+
+/* Medium Devices, Desctops */
+@media only screen and (max-width : 992px){
+    .container-profile{
+        width: 450px;
+    }
+    .date_picker_el {
+        padding: 3px;
+    }   
+    
+    .page-header > h3{
+        margin-left: 60px;
+    }
+    
+    .menu {
+        padding-left: 0;
+        min-width: 780px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px){
+    .container-profile{
+        width: 350px;
+    }
+    
+    .menu {
+        min-width: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    .container-profile{
+        width: 250px;
+    }
+    .page-header > h3{
+        margin-left: 10px;
+    }
+}
+

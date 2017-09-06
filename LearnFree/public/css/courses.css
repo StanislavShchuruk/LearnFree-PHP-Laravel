@@ -1,0 +1,121 @@
+
+.action-box{
+    border-left: 1px dashed #009933;
+    height: 100%;
+    display:table;
+    padding: 0 20px;
+}
+
+.action-box > .bottom_btn > .btn{
+    display:block;
+    font-size: 16px;
+    margin: 0 auto 20px 0px;  
+}
+
+.action-box > .bottom_btn > .btn > a{
+    color: #ffffff;
+}
+
+.action-box > .bottom_btn > .btn > a:hover{
+    text-decoration: none;
+}
+
+.bottom_btn{
+    display:table-cell;
+    vertical-align: bottom;
+}
+
+.container-course{
+    width: 1000px;
+}
+
+.courses-list{
+    margin-top: 20px;
+}
+
+.course-div-li{
+    width: 100%;
+    height: 140px;
+    padding: 0;
+    border-radius: 5px;
+    background: #e6f5ff;
+    border-color: #009933;
+    font-size: 18px;
+}
+
+.text-box{
+    display: inline-block;
+    font-size: 16px;
+    color: #009933;
+}
+
+.title-text-box{
+    font-size: 22px;
+}
+
+.img-box{
+    display: inline-block;
+    padding: 0;
+    height: 140px;
+}
+
+.course-div-li .img-box{
+    border-right: 2px solid #009933;
+    border-radius: 3px;
+}
+
+.container-course .img-box{
+    width: 260px;
+    border: 2px solid #009933;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+
+.video-box{
+    display: block;
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+    
+    .course-div-li{
+        font-size: 15px;
+    }
+
+    .action-box{
+        padding: 10;
+    }
+
+}
+
+/* Medium Devices, Desctops */
+@media only screen and (max-width : 992px){
+    
+    .course-div-li{
+        width: 260px;
+    }
+
+    .description-box{
+        background: #e6f5ff;
+    }
+    
+    .action-box{
+        border-left: none;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px){
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+
+}
+
