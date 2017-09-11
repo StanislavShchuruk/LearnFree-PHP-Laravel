@@ -23,9 +23,9 @@ class CoursesTableSeeder extends Seeder
             understand how the world around you works.',
 
             'description' => 
-            'In our highly technological society, it is useful to have 
-             a basic understanding of the how and why the world works 
-             the way it does: that’s what physics is all about. 
+            'In our highly technological society, it is useful to have'
+            .' a basic understanding of the how and why the world works'
+            .'the way it does: that’s what physics is all about. 
              It also involves a touch of history, a bit of mathematics, 
              and many everyday examples.
              Before starting this course, you are recommended to have the following equivalent mathematical knowledge:

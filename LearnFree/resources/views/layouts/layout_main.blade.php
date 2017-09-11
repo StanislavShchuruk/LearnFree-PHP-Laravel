@@ -17,8 +17,6 @@
     
     <body>    
         {{-- Главная навигационная панель --}}
-        @include('partiels.partiel_login_modal')
-        @include('partiels.partiel_register_modal')
         <header class="main-header">
             @include('partiels.partiel_navbar')
         </header>

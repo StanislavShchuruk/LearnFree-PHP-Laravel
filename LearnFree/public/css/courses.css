@@ -26,7 +26,14 @@
 }
 
 .container-course{
+    margin: 0 auto;
     width: 1000px;
+}
+
+.course-edit-container{
+    width: 300px;
+    height: 500px;
+    border: 2px dashed #3097D1;
 }
 
 .courses-list{
@@ -51,6 +58,17 @@
 
 .title-text-box{
     font-size: 22px;
+}
+
+.course-textarea{
+    font-size: 16px;
+    width: 950px;
+    height: 150px;
+}
+
+.title-text-box .course-textarea{
+    width: 700px;
+    height: 100px;
 }
 
 .img-box{
